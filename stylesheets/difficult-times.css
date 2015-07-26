@@ -1,0 +1,40 @@
+.movies article {
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  background-position-x: center;
+  color: #EEE;
+  height: 400px;;
+  width: 100%;
+  /* position: fixed; */
+  -webkit-transition: -webkit-transform 0.9s ease-out;
+  transition: transform 0.9s ease-out;
+  z-index: -3;
+}
+.movies article h2 {
+  font-size: 58px;
+  float: left;
+  max-width: 380px;
+  text-align: left;
+  margin-top: 35vh;
+  margin-left: 11%;
+}
+
+.movies article,
+.movies article.at-left {
+  transform: translate(-100%);
+}
+.movies article.at-right {
+  -webkit-transform: translate(100%);
+  transform: translate(100%);
+}
+.movies article.active {
+  -webkit-transform: none;
+  transform: none;
+  z-index: -2;
+}
+.movies article.iron-man {
+  background-image: url("../assets/1.jpg");
+}
+.movies article.hulk {
+  background-image: url("../assets/2.jpg");
+}

@@ -8,6 +8,8 @@
 	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
     <link href="stylesheets/style.css" type="text/css" rel="stylesheet" >
+    <link href="stylesheets/gallery.css" type="text/css" rel="stylesheet" >
+    <script type="text/javascript" src="js/gallery.js"></script>
 </head>
 <body>
     <div class="brief-introduction">
@@ -29,16 +31,16 @@
     <div class="glory">
         <ul class="glory-title">
             <li>
-                <a>Final Champion</a>
+                <a href="#">Final Champion</a>
             </li>
             <li>
-                <a>All Star MVP</a>
+                <a href="#">All Star MVP</a>
             </li>
             <li>
-                <a>Slam Dunk Champian</a>
+                <a href="#">Slam Dunk Champian</a>
             </li>
             <li>
-                <a>Olympic Champain</a>
+                <a href="#">Olympic Champain</a>
             </li>
         </ul>
         <ul class="glory-images">
@@ -48,5 +50,64 @@
             <li></li>
         </ul>
     </div>
+
+    <div class="gallery-rivals">
+        <p>Rivals in 20 Years</p>
+        <section id="dg-container" class="dg-container">
+            <div class="dg-wrapper">
+                <a href="#"><img src="../assets/jordan.jpg" alt="image01"><div>Jordan</div></a>
+                <a href="#"><img src="../assets/iversion.jpg" alt="image02"><div>Iversion</div></a>
+                <a href="#"><img src="../assets/carter.jpg" alt="image02"><div>Carter</div></a>
+                <a href="#"><img src="../assets/micgrady.jpg" alt="image03"><div>Macgrady</div></a>
+                <a href="#"><img src="../assets/james.jpg" alt="image04"><div>James</div></a>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="difficult-times">
+        <p>Difficult Times</p>
+        <div class="move-buttons">
+            <button class="left-btn">left</button>
+            <button class="right-btn">right</button>
+        </div>
+        <section class="difficult-section">
+            <article class="rape-case active">
+                <p> 2003, Before the season began, Bryant was arrested for sexual assault. This caused Bryant to miss some games due to court appearances or attend court earlier in the day and travel to play games later in same day.</p>
+            </article>
+            <article class="final-game-lost">
+                <p> 2004 final game, Lakers were upset in five games by the Detroit Pistons, who won their first championship since 1990 In that series, Bryant averaged 22.6 points per game and 4.4 assists. He shot 35.1% from the field.</p>
+            </article>
+            <article class="ok-collapse">
+                <p> 2005, Shaquille O'Neal was traded to the Miami Heat for Lamar Odom, Caron Butler, and Brian Grant. The following day, Bryant declined an offer to sign with the Los Angeles Clippers and re-signed with the Lakers on a seven-year contract.
+                </p>
+            </article>
+            <article class="no-playoff">
+                <p> 2006-2007 NBA Playoffs, the Lakers were  eliminated in the first round by the Phoenix Suns twice;
+                </p>
+            </article>
+            <article class="injury">
+                <p>2013, With the Lakers fighting to secure the eighth and final playoff berth in the Western Conference, Bryant began playing almost all 48 minutes each game. On April 12, Bryant suffered a torn Achilles tendon against the Golden State Warriors, ending his season.</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>Designed By DingLei, Pair: ZhiJin</p>
+    </footer>
+    
+   <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+   <script type="text/javascript" src="js/jquery.gallery.js"></script>
+   <script type="text/javascript">
+            $(function() {
+                $('#dg-container').gallery({
+                    autoplay    :   true
+                });
+            });
+    </script/>
+
+
+   <script type="text/javascript" src="js/app.js"></script>
+  
 </body>
 </html>
