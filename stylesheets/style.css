@@ -75,7 +75,7 @@ body {
   width: 100%;
   height: 900px;
   box-sizing: border-box;
-  background-image: url("../assets/brief_introduction.jpg");
+  background-image: url("../assets/brief_introduction.gif");
   background-size: cover;
   padding: 100px;
 }
