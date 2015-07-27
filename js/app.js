@@ -19,8 +19,8 @@ $(function() {
         }
     $('.difficult-section article').removeClass('active move-left move-right');
     $next_active.addClass('active');
-    $next_active.prevAll().addClass('move-left');
     $next_active.nextAll().addClass('move-right');
+    $next_active.prevAll().addClass('move-left');
    });
 
 
