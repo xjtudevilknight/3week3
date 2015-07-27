@@ -2,7 +2,7 @@ $(function() {
   $('.left-btn').click(function() {
         $next_active = $('.active').prev();
         if ($next_active.size() == 0) {
-             alert("Please Click Right Button"); 
+             alert("Please Click Next Button"); 
              return;
         }
         $('.difficult-section article').removeClass('active move-left move-right');
@@ -14,7 +14,7 @@ $(function() {
     $('.right-btn').click(function() {
         $next_active = $('.active').next();
         if ($next_active.size() == 0) {
-             alert("Please Click left Button"); 
+             alert("Please Click Prev Button"); 
              return;
         }
     $('.difficult-section article').removeClass('active move-left move-right');
